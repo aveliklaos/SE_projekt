@@ -26,3 +26,13 @@ h2 {
 	width: 100%;
 	display: block;
 }
+.button {
+	background-color: #008CBA; /* Blue */
+    border-radius: 12px;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
