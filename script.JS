@@ -1,20 +1,21 @@
-function openCat(evt, catName) {
-    //Muutujad
-    var i, tabcontent, tablinks;
-
+function openPage(pageName, elmnt, color) {
+    // Muutujad 
     //class="tabcontent" elemntide võtmine ja peitmine
+    var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
 
-    //class="tablinks" elementide võtmine ja class="active" eemaldamine
-    tablinks = document.getElementsByClassName("tablinks");
+    //class="tablinks" elementide võtmine
+    tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        tablinks[i].style.backgroundColor = "";
     }
 
-    //Hetkese tab-i näitamine ja class="active" lisamine nupule, mis avas tabi
-    document.getElementById(catName).style.display = "block";
-    evt.currentTarget.className += " active";
+    // Näitab valitud/aktiivse tabi sisu 
+    document.getElementById(pageName).style.display = "block";
+
+    // Värvi lisamine nupule, mis tabi avas
+    elmnt.style.backgroundColor = color;
 }
