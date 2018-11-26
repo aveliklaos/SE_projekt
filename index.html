@@ -3,19 +3,34 @@
   <title>Meie kassid</title>
   <link 
   rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script type="text/javascript" src="script.js"></script>
 </head>
+
 <body>
 	<div class="banner">
-		<a class="banner" href="file:///C:/Users/Siim/Desktop/SE_projekt/index.html">
+		<a class="banner" href="index.html">
 			<img class="banner-image" src="https://i.imgur.com/vvNDtqG.jpg"/>
 		</a>
 	</div>
-	<div class="keskele">
-		<button class="button font uppercase">Kubo</button>
-		<button class="button font uppercase">Sebastian</button>
-		<button class="button font uppercase">Sofia</button>
+	
+	<div class="tab">
+		<button class="button font tablinks" onclick="openCat(event, 'Kubo')">Kubo</button>
+		<button class="button font tablinks" onclick="openCat(event, 'Sebastian')">Sebastian</button>
+		<button class="button font tablinks" onclick="openCat(event, 'Sofia')">Sofia</button>
 	</div>
-	<h1 class="font keskele">Tutvustus</h1>
+	
+	<div id="Kubo" class="tabcontent sisulõik font keskele">
+		<p>Kubo on tore</p> 
+	</div>
+	<div id="Sebastian" class="tabcontent sisulõik font keskele">
+		<p>Bassu ka tore</p>
+	</div>
+	<div id="Sofia" class="tabcontent sisulõik font keskele">
+		<p>sof ka</p>
+	</div>
+	
+
+	<h1 class="font keskele värv centered">Tutvustus</h1>
 	<p class="sisulõik font keskele">Sellel veebilehel saate tutvida Aveli, Siim Taneli ja Kätlini kassidega. Nende nimedeks on vastavalt Sofia, Sebastian ja Kubo. Tegemist on äärmiselt toredate toakassidega, kellest on võimalik näha siin lehel vahvaid pilte ning ka videoid.</p>
 	<div class="keskele">
 		<img class="kassid" src="https://i.imgur.com/EP5xxbw.jpg" alt="Kass Kubo"/>

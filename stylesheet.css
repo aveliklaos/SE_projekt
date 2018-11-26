@@ -5,10 +5,11 @@
 	text-transform: uppercase;
 }
 .sisulõik {
-	font-size: 18px;
+	font-size: 20px;
+	line-height: 1.5;
 }
 .font {
-	font-family: Century Gothic;
+	font-family: Arial;
 }
 h1 {
 	font-size: 40px;
@@ -22,8 +23,16 @@ h2 {
 	min-width: 33%;
 }
 .keskele {
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 175px;
+	margin-right: 175px;
+}
+
+.värv {
+	color: #F0785E;
+}
+
+.centered {
+	text-align: center;
 }
 
 .banner{
@@ -36,15 +45,39 @@ h2 {
 	display: block;
 }
 
-.button {
-	background-color: white;
-    border-radius: 12px;
+
+/* tabi kujundus */
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+/* tabi sisu avamise nuppude kujundus */
+.tab button {
+    background-color: #F0785E;
     color: black;
     padding: 6px 20px;
 	text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 24px;
     width: 33%;
+    color: white;
+}
+
+/* nuppude taustavärv hoverimisel */
+.tab button:hover {
+    background-color: #EF684C;
+}
+
+/* aktiivse tablinki klassi loomine */
+.tab button.active {
+    background-color: #EE5B3D;
+}
+
+/* tabi sisu kujundus */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
 }
