@@ -11,8 +11,14 @@ h2 {
 }
 
 p {
-	font-size: 20px;
+	font-size: 22px;
 	text-align: justify;
+}
+
+ul {
+	padding: 20px;
+	font-size: 24px;
+	text-align: left;
 }
 .kassid {
 	width: 300px;
@@ -44,7 +50,7 @@ p {
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Arial;
+  font-family: Century Gothic;
 }
 
 .tablink {
@@ -57,10 +63,11 @@ body, html {
   padding: 14px 16px;
   font-size: 21px;
   width: 25%;
+  font-family: Century Gothic;
 }
 
 .tablink:hover {
-  background-color: ##EF684C;
+  background-color: #FF886F;
 }
 
 .tabcontent {
