@@ -1,6 +1,6 @@
 function openPage(pageName, elmnt, color) {
     // Muutujad 
-    //class="tabcontent" elemntide võtmine ja peitmine
+    //class="tabcontent" elementide võtmine ja peitmine
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
