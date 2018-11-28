@@ -13,30 +13,75 @@
 		</a>
 	</div>
 	
-	<button class="button font tablink esileht" onclick="openPage('Esileht', this, '#EE5B3D')">Esileht</button>
-	<button class="button font tablink" onclick="openPage('Kubo', this, '#EE5B3D')">Kubo</button>
-	<button class="button font tablink" onclick="openPage('Sebastian', this, '#EE5B3D')">Sebastian</button>
-	<button class="button font tablink" onclick="openPage('Sofia', this, '#EE5B3D')">Sofia</button>
+	<button class="tablink" onclick="openPage('Esileht', this, '#EE5B3D')">ESILEHT</button>
+	<button class="tablink" onclick="openPage('Kubo', this, '#EE5B3D')">KUBO</button>
+	<button class="tablink" onclick="openPage('Sebastian', this, '#EE5B3D')">SEBASTIAN</button>
+	<button class="tablink" onclick="openPage('Sofia', this, '#EE5B3D')">SOFIA</button>
 	
 	<div id="Esileht" class="tabcontent">
-		<h1 class="font keskele värv centered">Tutvustus</h1>
-		<p class="sisulõik font keskele">Sellel veebilehel saate tutvuda Aveli, Siim Taneli ja Kätlini kassidega. Nende nimedeks on vastavalt Sofia, Sebastian ja Kubo. Tegemist on äärmiselt toredate toakassidega, kellest on võimalik näha siin lehel vahvaid pilte ning ka videoid.</p>
-		<div class="keskele centered">
+		<h1 class="sisu center">TUTVUSTUS</h1>
+		<p class="sisu">Sellel veebilehel saate tutvuda Aveli, 
+		Siim Taneli ja Kätlini kassidega. Nende nimedeks on vastavalt Sofia, 
+		Sebastian ja Kubo. Tegemist on äärmiselt toredate toakassidega, kellest 
+		on võimalik näha siin lehel vahvaid pilte ning ka videoid.</p>
+		<div class="sisu center">
 			<img class="kassid" src="https://i.imgur.com/EP5xxbw.jpg" alt="Kass Kubo"/>
 			<img class="kassid" src="https://i.imgur.com/HpN82KE.jpg" alt="Kass Sebastian"/>
 			<img class="kassid" src="https://i.imgur.com/GHYkhWJ.jpg" alt="Kass Sofia"/>
 		</div>
 	</div>
+	
 	<div id="Kubo" class="tabcontent">
-		
+		<h1 class="sisu center">Kubo</h1>
+		<ul class="sisu">
+			<li>2-aastane</li>
+			<li>Segatõugu</li>
+			<li>Isane</li>
+		</ul>
+		<ul class="sisu">
+			<li>Karvkate: tiigrimustriga, pruuni ja musta segu</li>
+			<li>Lemmik söök: kõik konservid</li>
+			<li>Lemmik mänguasi: põrkepall</li>
+			<li>Lemmik tegevus: magamine</li>
+			<li>Lemmik koht: pehme pesa</li>
+		</ul>
+		<img class="pilt center" src="https://i.imgur.com/ULpAnpG.jpg" alt="Kass Kubo"/>
+		<p class="sisu">Kubo on kahe aastane uudishimulik kassipoiss, 
+		kes otsib alati võimalusi inimeste tähelepanu võitmiseks. Kõige ilusamad 
+		mjäud tulevad siis, kui ta näeb inimest, kellel on söök käes. Lisaks 
+		mjäugub Kubo ka siis, kui ta tahab väga, et keegi talle mänguhiiri viskaks.
+		</p>
+		<img class="pilt center" src="https://i.imgur.com/P3BE0Df.jpg" alt="Kass Kubo"/>
+		<p class="sisu">Kubole meeldib vaadata aknast välja ning 
+		kui ta näeb linde, läheb ta eriti ärevile. Aknast vaadates peab linde vahepeal tunde ootama,
+		seega on palju lõbusam neid arvutist vaadata. Läpakat nähes vaatab Kubo üle läpaka 
+		kõik küljed, lootes, et mõni lind või orav sealt välja hüppab.</p>
+		<img class="pilt center" src="https://i.imgur.com/ZIQHUwh.jpg" alt="Kass Kubo"/>
+		<p class="sisu">Lisaks sülearvutile meeldib Kubole ka telekat vaadata. 
+		Kahjuks "Troonide mäng" talle huvi ei paku, kuid kui ETV pealt käib mõni loodussaade,
+		siis ei tohi teda keegi segada.</p>
+		<video class="pilt center" controls>
+			<source src="kubo.mp4" type="video/mp4">
+		</video>
 	</div>
+	
 	<div id="Sebastian" class="tabcontent">
-		<h1 class="font keskele värv centered">Sebastian</h1>
-		<p class="keskele font sisulõik">Bassu ka tore</p>
+		<h1 class="sisu center">Sebastian</h1>
+		<ul class="sisu">
+			<li>13-aastane</li>
+			<li>Scottish Fold</li>
+			<li>Isane</li>
+		</ul>
+		<p class="sisu">Sebastian, hüüdnimega Bassu, on väga rahuliku loomuga ja seltsiv kass. Kodus ringi liikudes hoiab Bassu pidevalt sul silma peal ning võimaluse korral lunib sinult pai või süüa. Rahulikkus avaldub peamiselt selles, et kui õe kaks noort chihuahuat teda limpsimas ja muudmoodi kiusamas käivad, ei tee Bassu selle peale häältki ja pikutab edasi või istub neil seltsis.</p>
 	</div>
 	<div id="Sofia" class="tabcontent">
-		<h1 class="font keskele värv centered">Sofia</h1>
-		<p class="keskele font sisulõik">sof ka</p>
+		<h1 class="sisu center">Sofia</h1>
+		<ul class="sisu">
+			<li>3-aastane</li>
+			<li>British Shorthair</li>
+			<li>Emane</li>
+		</ul>
+		<p class="sisu">Sofia, hüüdnimega Sofi/Sofster/Sof, on täpselt oma tõukirjeldusele vastav - vaikne ja sõbralik. Tema sõbralikkus väljendub näiteks selles, et isegi minu 6-aastast kiuslikku venda on ta vaid üksikutel kordadel kriimustanud. Sofi meelistegevusteks on söömine, magamine, putukate püüdmine ning pahanduste korda saatmine. Väga harva magab Sofia "normaalses" asendis, enamasti on ta kõht taeva poole.</p>
 	</div>
 	
 </body>
